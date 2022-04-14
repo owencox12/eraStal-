@@ -1,0 +1,87 @@
+.support {
+    min-height: 415px;
+    background: url(../../image/support.png) center center / cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 55px;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        &_input {
+            width: 495px;
+            height: 40px;
+            border: 1px solid #B5B5B5;
+            border-radius: 5px;
+            padding-left: 15px;
+            background: #fff;
+        }
+        &_textarea {
+            width: 495px;
+            height: 110px;
+            background: #FFFFFF;
+            border: 1px solid #B5B5B5;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+        &_button {
+            margin-top: 20px;
+        }
+    }
+    &__item {
+        &_blocks {
+            margin-left: 110px;
+            display: flex;
+            align-items: center;
+            &_tel {
+                margin-left: 15px;
+                &_text {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 100%;
+                    color: #FFFFFF;
+                    margin-top: 6px;
+                }
+                &_link {
+                    a {
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 100%;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        &_form {
+            margin-top: 16px;
+            &_input {
+                padding-left: 15px;
+                width: 495px;
+                height: 40px;
+                background: #FFFFFF;
+                border: 1px solid #B5B5B5;
+                border-radius: 5px;
+            }
+            &_button {
+                margin-top: 20px;
+            }
+        }
+    }
+}

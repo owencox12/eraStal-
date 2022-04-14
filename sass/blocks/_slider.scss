@@ -1,0 +1,33 @@
+.slider {
+    background: url(../../image/slideBG.png) center center / cover no-repeat;
+    min-height: 700px;
+    position: relative;
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 18px;
+        text-align: center;
+        color: #333333;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    &__left {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        cursor: pointer;
+    }
+    &__right {
+        position: absolute;
+        top: 15%;
+        right: 15%;
+        cursor: pointer;
+    }
+}
+.swiper-slide {
+    &:nth-child(1) {
+        margin-left: 45px;
+    }
+}

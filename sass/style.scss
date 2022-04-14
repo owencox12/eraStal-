@@ -1,0 +1,28 @@
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/main';
+@import 'blocks/about';
+@import 'blocks/lenta';
+@import 'blocks/calc';
+@import 'blocks/info';
+@import 'blocks/slider';
+@import 'blocks/sert';
+@import 'blocks/support';
+@import 'blocks/footer';
+@import 'blocks/metal';
+@import 'blocks/gallery';
+@import 'blocks/media';
+
+
+body.lock {
+    overflow: hidden;
+}

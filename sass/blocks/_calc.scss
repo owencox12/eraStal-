@@ -1,0 +1,21 @@
+.calc {
+    min-height: 330px;
+    background: url(../../image/bgCalc.png) center center / cover no-repeat;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        &_title {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 45px;
+            color: #FFFFFF;
+            padding-top: 65px;
+        }
+        &_button {
+            margin-top: 30px;
+        }
+    }
+}

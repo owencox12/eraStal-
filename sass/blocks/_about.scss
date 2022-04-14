@@ -1,0 +1,57 @@
+.about {
+    min-height: 450px;
+    background: url(../../image/aboutBG.png) center center / cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 18px;
+        text-align: center;
+        color: #333333;
+        padding-top: 57px;
+    }
+    &__item {
+        width: 25%;
+        &:nth-child(5) {
+            margin-top: 38px;
+        }
+        &:nth-child(6) {
+            margin-top: 38px;
+        }
+        &:nth-child(7) {
+            margin-top: 38px;
+        }
+        &:nth-child(8) {
+            margin-top: 38px;
+        }
+        &_image {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_title {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 22px;
+            text-align: center;
+            color: gray;
+            margin-top: 10px;
+            span {
+                color: #4664A0;
+                font-weight: 700;
+                font-size: 16px;
+                margin-top: 5px;
+            }
+        }
+    }
+}

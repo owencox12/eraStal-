@@ -1,0 +1,28 @@
+.footer {
+    background: #101010;
+    min-height: 72px;
+    padding-bottom: 10px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 21px;
+    }
+    &__item {
+        &_text {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(255,255,255,.5);
+            width: 325px;
+        }
+        &_blocks {
+            display: flex;
+            &_social {
+                cursor: pointer;
+                margin: 0 10px;
+            }
+        }
+    }
+}

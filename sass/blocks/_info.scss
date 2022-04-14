@@ -1,0 +1,34 @@
+.info {
+    background: url(../../image/infoBG.png) center center / cover no-repeat;
+    min-height: 450px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &:nth-child(1) {
+            padding-top: 110px;
+        }
+        &:nth-child(2) {
+            margin-left: 30px;
+            padding-top: 60px;
+        }
+        &_title {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 45px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+    }
+}

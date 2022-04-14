@@ -1,0 +1,62 @@
+.button {
+    &--header {
+        width: 294px;
+        height: 38px;
+        background: #2E4B85;
+        border-radius: 5px;
+        border: none;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &--calc {
+        width: 226px;
+        height: 45px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: none;         
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        color: #4664A0;
+        img {
+            margin-right: 20px;
+        }
+    }
+    &--form {
+        width: 515px;
+        height: 40px;
+        background: #4664A0;
+        border-radius: 5px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        border: none;
+    }
+    &--lenta {
+        width: 235px;
+        height: 40px;
+        background: #4664A0;
+        border-radius: 5px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        border: none;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+    }
+}

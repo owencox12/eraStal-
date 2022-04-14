@@ -1,0 +1,32 @@
+.main {
+    min-height: 800px;
+    background: url(../../image/mainBG.png) center center / cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 139px;
+    }
+    &__image {
+        text-align: center;
+        margin-top: 31px;
+    }
+    &__subtitle {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 36px;
+    }
+}

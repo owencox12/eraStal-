@@ -1,0 +1,30 @@
+.sert {
+    background: #323232;
+    min-height: 590px;
+    position: relative;
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+    &__right {
+        position: absolute;
+        right: 14%;
+        top: 46%;
+        z-index: 1000;
+        cursor: pointer;
+    }
+    &__left {
+        position: absolute;
+        left: 15%;
+        top: 46%;
+        z-index: 1000;
+        cursor: pointer;
+    }
+}
